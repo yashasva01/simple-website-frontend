@@ -1,0 +1,512 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+/* home page styles */
+.mainBodyHome{
+    background-image: url("../assets/png/homeBackground.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+.header{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-style: italic;
+    flex: 1;
+}
+
+.quickLinks a{
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-decoration: underline;
+    padding: 20px 40px;
+    font-style: italic;
+    color: white;
+}
+
+
+.main{
+    font-family: 'Roboto Condensed', sans-serif;
+    flex: 12;
+    display: flex;
+    flex-direction: column;
+    padding: 0% 15% 0% 20%;
+    font-size: 120px;
+}
+
+#losHome{
+    padding: 0px 0 0 10%;
+    color:#4e4d4d;
+}
+#mounHome{
+    padding: 0px 0 0 10%;
+    margin: -45px 0 0 0;
+    color:#414e6d;
+}
+
+
+
+/* history page styles */
+
+.mainBodyHistory{
+    background-image: url("../assets/png/peak.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.headerHistory{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color:white;
+    flex: 1;
+}
+.logo{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.compTitle{
+    padding: 10px;
+    color:#3e4e68;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.mainHistory{
+    padding: 2% 22% 0% 18%; 
+    display: flex;
+    flex-direction: column;
+    flex: 12;
+}
+
+.historyHeading{
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    display: flex;
+    flex-direction: row;
+    height: 170px;
+}
+.heading10{
+    font-size: 150px;
+    color: #6d7d96;
+}
+#dot{
+    font-size: 200px;
+    height: 10px;
+    /* margin: -65px 0px; */
+}
+#textHistory{
+    font-size: 50px;
+    margin: 64px -39px;
+    color:#3e4e68;
+}
+.headingText{
+    display: flex;
+    flex-direction: column;
+}
+/* .imageDisplay{
+    background-color: #414f6a;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    opacity: 0.9;
+}
+*/
+
+.historyContent{ 
+    color:#3e4e68;
+    font-weight: 100;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: smaller;
+}
+
+.quickLinksHistory a{
+    color:#3e4e68; 
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-decoration: underline;
+    padding: 20px 40px;
+    font-style: italic;
+}
+
+/* .imagePreview{
+    background-image: url("../assets/png/traveller.png");
+    background-repeat: no-repeat;
+    background-size: 90% 80%;
+    height: 160px;
+    width: 240px;
+} */
+
+
+.imageDisplay {
+    background-color: #414f6a;
+    display: flex;
+    flex-wrap: wrap; /* Allows images to wrap to the next line if needed */
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    opacity: 0.9;
+}
+
+.imagePreview {
+    background-image: url("../assets/png/traveller.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    flex: 0 0 240px; /* Sets the initial width of the image to 240px, prevents shrinking and growing */
+    height: 160px;
+    margin: 5px; /* Add some spacing between images */
+}
+
+.threeDots{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.dots{
+    height: 20px;
+    width: 20px;
+    background-color: white;
+}
+
+
+
+/* styles for Team page */
+
+.mainBodyTeam{
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+
+}
+
+.headerTeam{
+    display: flex;
+    flex-direction: row;
+    height: 160px;
+    background-color: white;
+    padding:0% 0% 0% 18%;
+}
+.teamHeading10{
+    font-size: 150px;
+    color:#b1b3c0;
+}
+#teamTextHistory{
+    color: #414f6a;
+    font-size: 60px;
+    margin: 10px 15px 0px -45px;
+}
+.mainTeam{
+    display:flex;
+    flex-direction: row;
+    height: 60px;
+    background-color: #414f6a;
+    align-items: center;
+    padding: 0% 0% 0% 16%;
+}
+.teamHeading{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.headerText{
+    align-self: center;
+    color:#b1b3c0;
+    padding: 0 20px;
+    font-size: medium;
+}
+
+.climbSchedule{
+    background-image: url("../assets/png/teamBackground.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    flex: 4;
+    padding: 7% 18%;
+}
+
+.footer{
+    height: 85px;
+    color:#5b6c8f;
+    display: flex;
+    flex-direction: row;
+    background-color: #414f6a;
+    padding: 0% 0% 0% 0%;
+    justify-content: space-around;
+    align-items: center;
+}
+#mountain1{
+    font-size: 30px;
+    padding:  13px 10px;
+    color: #414f6a;
+    background-color:#b1b3c0;
+    text-decoration: underline;
+}
+#mountain2{
+    font-size: 30px;
+    padding: 10px ;
+    color:#b1b3c0;
+    text-decoration: underline;
+}
+.logoDiv{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.logoText{
+    font-size: 35px;
+}
+.copyright{
+    font-size: 15px;
+}
+.climbDetails{
+    padding: 10px 0 0 25px;
+    height: 200px;
+    width: 350px;
+    background-color: white;
+    opacity: 0.7;
+}
+.schHeading{
+    color: #414f6a;
+    font-size: 40px;
+}
+.dateList{
+    color:#b1b3c0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 130px;
+}
+#date{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    margin: 0 0 0 -25px;
+}
+
+
+
+
+
+
+
+
+/* media queries  */
+@media only screen and (max-width: 768px) {
+    .header {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .quickLinks a {
+        padding: 10px;
+    }
+
+    .main {
+        padding: 0% 5% 0% 10%;
+        font-size: 60px;
+    }
+
+    #losHome,
+    #mounHome {
+        padding: 0;
+        margin: 0;
+        text-align: center;
+    }
+}
+
+
+
+
+@media only screen and (max-width: 768px) {
+    .headerHistory {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .compTitle {
+        padding: 10px;
+        text-align: center;
+    }
+
+    .mainHistory {
+        padding: 2% 5% 0% 5%;
+        font-size: 14px;
+    }
+
+    .historyHeading {
+        height: auto;
+        justify-content: center;
+    }
+
+    .heading10 {
+        font-size: 100px;
+    }
+
+    #dot {
+        font-size: 150px;
+        margin: 0;
+    }
+
+    #textHistory {
+        font-size: 30px;
+        margin: 10px 0;
+    }
+
+    /* .imageDisplay {
+        height: auto;
+    } */
+
+    .historyContent {
+        font-size: 12px;
+    }
+
+    .quickLinksHistory a {
+        padding: 10px;
+    }
+
+    /* .imagePreview {
+        background-size: 80% 70%;
+        height: 100px;
+        width: 160px;
+    } */
+
+    .imageDisplay {
+        overflow: auto; 
+        height: 17%; 
+    }
+    .imagePreview {
+        flex: 0 0 100%; 
+        max-width: 60%; 
+    }
+}
+
+/* Media query for mobile screens */
+@media only screen and (max-width: 767px) {
+    .headerTeam {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+        height: auto;
+    }
+
+    .teamHeading10 {
+        font-size: 100px;
+    }
+
+    #teamTextHistory {
+        font-size: 40px;
+        margin: 10px 0;
+    }
+
+    .mainTeam {
+        padding: 5% 5%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .headerText {
+        padding: 5px;
+        text-align: center;
+    }
+
+    .climbSchedule {
+        padding: 5% 5%;
+    }
+
+    .climbDetails {
+        width: 100%;
+    }
+
+    .dateList {
+        height: auto;
+    }
+
+    #mountain1,
+    #mountain2 {
+        font-size: 20px;
+        padding: 5px;
+    }
+
+    .logoText {
+        font-size: 25px;
+    }
+
+    .schHeading {
+        font-size: 30px;
+    }
+
+    .dateList {
+        font-size: 12px;
+    }
+
+    .footer {
+        flex-direction: column;
+        justify-content: center;
+        height: auto;
+        padding: 5px;
+    }
+}
+
+/* Media query for tablet screens */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    .mainTeam {
+        padding: 5% 10%;
+    }
+
+    .climbSchedule {
+        padding: 5% 10%;
+    }
+
+    .climbDetails {
+        width: 100%;
+    }
+
+    .dateList {
+        height: auto;
+    }
+
+    #mountain1,
+    #mountain2 {
+        font-size: 25px;
+        padding: 5px;
+    }
+
+    .logoText {
+        font-size: 30px;
+    }
+
+    .schHeading {
+        font-size: 35px;
+    }
+
+    .dateList {
+        font-size: 14px;
+    }
+
+    .footer {
+        padding: 5px;
+    }
+}
